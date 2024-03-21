@@ -58,5 +58,5 @@ if uploaded_file is not None:
             color: red;
         }}
     </style>
-    <div class="tumour_count">Number of Tumour Detections: {tumour_count}</div>
+    <div class="tumour_count"></div>
     """, unsafe_allow_html=True)
