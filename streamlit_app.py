@@ -12,8 +12,8 @@ with open("coco.txt", "r") as my_file:
     class_list = my_file.read().split("\n")
 
 # Streamlit interface
-st.title('Brain Tumor Detection using YOLOv8')
-st.write('Upload an image and the model will detect brain tumors.')
+st.title('Blood Cells Type Detection using YOLOv8')
+st.write('Upload an image and the model will detect blood cells type.')
 
 # Upload image through Streamlit
 uploaded_file = st.file_uploader("Choose an image...", type="jpg")
