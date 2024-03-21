@@ -5,10 +5,10 @@ from ultralytics import YOLO
 import numpy as np
 import cv2
 # Load the pre-trained YOLO model
-model = YOLO('D:/Project/best (3).pt')
+model = YOLO('best (3).pt')
 
 # Read the COCO class list from a file
-with open("D:/Project/coco.txt", "r") as my_file:
+with open("coco.txt", "r") as my_file:
     class_list = my_file.read().split("\n")
 
 # Streamlit interface
