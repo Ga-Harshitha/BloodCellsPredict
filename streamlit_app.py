@@ -1,7 +1,4 @@
-import sys
-sys.path.append('./ultralytics/yolo')
 
-from utils.checks import requirements
 import pandas as pd
 import streamlit as st
 from ultralytics import YOLO
